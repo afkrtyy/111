@@ -1,0 +1,14 @@
+ Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Label Name="label1" Content="Введите значение X:" HorizontalAlignment="Left" Height="27" Margin="10,42,0,0" VerticalAlignment="Top" Width="171" FontSize="15"/>
+        <Label Name="label2" Content="Введите значение Y:" HorizontalAlignment="Left" Height="27" Margin="10,94,0,0" VerticalAlignment="Top" Width="171" FontSize="15"/>
+        <Label Name="label3" Content="Введите значение Z:" HorizontalAlignment="Left" Height="27" Margin="10,145,0,0" VerticalAlignment="Top" Width="171" FontSize="15"/>
+        <Label Name="label4" Content="Результат выполнения программы:" HorizontalAlignment="Left" Height="32" Margin="10,206,0,0" VerticalAlignment="Top" Width="256" FontSize="15"/>
+        <TextBox Name="textBox1" HorizontalAlignment="Left" Height="27" Margin="197,42,0,0" TextWrapping="Wrap" Text="3,4"   VerticalAlignment="Top" Width="170" />
+        <TextBox Name="textBox2" HorizontalAlignment="Left" Height="27" Margin="197,94,0,0" TextWrapping="Wrap" Text="0,74"  VerticalAlignment="Top" Width="170"/>
+        <TextBox Name="textBox3" HorizontalAlignment="Left" Height="27" Margin="197,145,0,0" TextWrapping="Wrap" Text="19,43"  VerticalAlignment="Top" Width="170"/>
+        <TextBox Name="textBox4" HorizontalAlignment="Left" Height="122" Margin="10,238,0,0" TextWrapping="Wrap" Text="Ответ:"   VerticalAlignment="Top" Width="357"/>
+        <Button Name="button1" Content="Выполнить" HorizontalAlignment="Left" Height="30" Margin="251,365,0,0" VerticalAlignment="Top" Width="116" Click="button1_Click"/>
+
+    </Grid>
+</Window>
